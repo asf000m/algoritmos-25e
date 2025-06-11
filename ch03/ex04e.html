@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ex04e</title>
+  </head>
+  <body>
+    <script>
+      let valor = parseFloat(prompt("Valor do bem em R$"));
+      let taxa = parseFloat(prompt("Taxa de juros a.m."));
+      let tempo = parseInt(prompt("Tempo (quantidade de prestações) em meses"));
+      let prestacao = valor + (valor * (taxa / 100) * tempo);
+      alert("Prestação: R$ " + prestacao);
+      console.log("Prestação: R$ " + prestacao);
+    </script>
+  </body>
+</html>
