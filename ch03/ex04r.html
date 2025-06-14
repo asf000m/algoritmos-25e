@@ -1,0 +1,28 @@
+<!-- Em uma eleição sindical concorreram ao cargo de presidente três candidatos (representados pelas variáveis A, B e C). Durante a apuração dos votos foram computados votos nulos e em branco, além dos votos válidos para cada candidato. Deve ser criado um programa de computador que faça a leitura da quantidade de votos válidos para cada candidato, além de ler também a quantidade de votos nulos e em branco. Ao final, o programa deve apresentar o número total de eleitores, considerando votos válidos, nulos e em branco; o percentual correspondente de votos válidos em relação à quantidade de eleitores; o percentual correspondente de votos válidos do candidato A em relação à quantidade de eleitores; o percentual correspondente de votos válidos do candidato B em relação à quantidade de eleitores; o percentual correspondente de votos válidos do candidato C em relação à quantidade de eleitores; o percentual correspondente de votos nulos em relação à quantidade de eleitores; e, por último, o percentual correspondente de votos em branco em relação à quantidade de eleitores. Todos os cálculos devem efetivamente ser armazenados em memória. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ex04r.html</title>
+  </head>
+  <body>
+    <script>
+      let a = parseInt(prompt("Votos do candidato A"));
+      let b = parseInt(prompt("Votos do candidato B"));;
+      let c = parseInt(prompt("Votos do candidato C"));;
+      let nulos = parseInt(prompt("Votos nulos"));
+      let branco = parseInt(prompt("Votos em branco"));
+      let totalEleitores = a + b + c + nulos + branco;
+      let validosA = a / totalEleitores * 100;
+      let validosB = b / totalEleitores * 100;
+      let validosC = c / totalEleitores * 100;
+      let percentualNulos = nulos / totalEleitores * 100;
+      let percentualBranco = branco / totalEleitores * 100;
+      alert("Percentual de votos validos do candidato A: " + validosA);
+      alert("Percentual de votos validos do candidato B: " + validosB);
+      alert("Percentual de votos validos do candidato C: " + validosC);
+      alert("Percentual de votos nulos: " + percentualNulos);
+      alert("Percentual de votos em branco: " + percentualBranco);
+    </script>
+  </body>
+</html>
