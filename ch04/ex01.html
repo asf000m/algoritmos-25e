@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ex01</title>
+  </head>
+  <body>
+    <script>
+      let x = 1, a = 3, b = 5, c = 8, d = 7;
+
+      let resA = !(x > 3);
+      console.log(`a: ${resA}`);
+
+      let resB = (x < 1) && !(b > d);
+      console.log(`b: ${resB}`);
+
+      let resC = !(d < 0) && (c > 5);
+      console.log(`c: ${resC}`);
+
+      let resD = (x > 3) || (c < 7);
+      console.log(`d: ${resD}`);
+
+      let resE = (a > b) || (c > b);
+      console.log(`e: ${resE}`);
+
+      let resF = x >= 2;
+      console.log(`f: ${resF}`);
+
+      let resG = (x < 1) && (b >= d);
+      console.log(`g: ${resG}`);
+
+      let resH = (d < 0) || (c > 5);
+      console.log(`h: ${resH}`);
+
+      let resI = (d > 3) || !(b < 7);
+      console.log(`i: ${resI}`);
+
+      let resJ = (a > b) || !(c > b);
+      console.log(`j: ${resJ}`);
+    </script>
+  </body>
+</html>
