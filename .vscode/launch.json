@@ -1,0 +1,161 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "ex04a",
+      "request": "launch",
+      "mainClass": "ex04a",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04b",
+      "request": "launch",
+      "mainClass": "ex04b",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04c",
+      "request": "launch",
+      "mainClass": "ex04c",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04d",
+      "request": "launch",
+      "mainClass": "ex04d",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04e",
+      "request": "launch",
+      "mainClass": "ex04e",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04f",
+      "request": "launch",
+      "mainClass": "ex04f",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04g",
+      "request": "launch",
+      "mainClass": "ex04g",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04h",
+      "request": "launch",
+      "mainClass": "ex04h",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04i",
+      "request": "launch",
+      "mainClass": "ex04i",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04j",
+      "request": "launch",
+      "mainClass": "ex04j",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04k",
+      "request": "launch",
+      "mainClass": "ex04k",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04l",
+      "request": "launch",
+      "mainClass": "ex04l",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04m",
+      "request": "launch",
+      "mainClass": "ex04m",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04n",
+      "request": "launch",
+      "mainClass": "ex04n",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04o",
+      "request": "launch",
+      "mainClass": "ex04o",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04p",
+      "request": "launch",
+      "mainClass": "ex04p",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04q",
+      "request": "launch",
+      "mainClass": "ex04q",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04r",
+      "request": "launch",
+      "mainClass": "ex04r",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04s",
+      "request": "launch",
+      "mainClass": "ex04s",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04t",
+      "request": "launch",
+      "mainClass": "ex04t",
+      "projectName": "algoritmos-25e_c34597ad"
+    },
+    {
+      "type": "java",
+      "name": "ex04u",
+      "request": "launch",
+      "mainClass": "ex04u",
+      "projectName": "algoritmos-25e_c34597ad"
+    }
+  ]
+}

@@ -1,9 +1,15 @@
+import java.util.*;
 public class ex04g {
     public static void main(String[] args) {
-        int a = 90;
-        int b = 23;
-        int c = 20;
-        int d = 221;
+        Scanner sc = new Scanner(System.in);
+
+        /* Ler quatro valores numéricos inteiros e apresentar os resultados armazenados em memória das adições e multiplicações utilizando o mesmo raciocínio aplicado quando do uso de propriedades distributivas para a máxima combinação possível entre as quatro variáveis. Não é para calcular a propriedade distributiva, deve-se apenas usar a sua forma de combinação. Considerando a leitura de valores para as variáveis A, B, C e D, devem ser feitas seis adições e seis multiplicações, ou seja, deve ser combinada a variável A com a variável B, a variável A com a variável C, a variável A com a variável D. Depois, é necessário combinar a variável B com a variável C e a variável B com a variável D e, por fim, a variável C será combinada com a variável D. */
+
+        System.out.println("Digite 4 valores ->");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
         int add_ab = a + b;
         int add_ac = a + c;
         int add_ad = a + d;

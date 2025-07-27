@@ -1,9 +1,19 @@
+import java.util.*;
 public class ex04e {
     public static void main(String[] args) {
-        double value = 405.34;  // in dolars
-        double interest_rate = 2;  // in % a.m.
-        int time = 36;  // in months
-        double installment = value + (value * (interest_rate / 100) * time);
-        System.out.println("The installment will be $ "+ installment +" per month");
+        Scanner sc = new Scanner(System.in);
+
+        /* Efetuar o cálculo e apresentar o valor de uma prestação de um bem em atraso, utilizando a fórmula PRESTAÇÃO ← VALOR + (VALOR * (TAXA / 100) * TEMPO). */
+
+        System.out.print("Valor original da prestacao -> ");
+        double value = sc.nextDouble();
+        System.out.print("Percentual da taxa de juros ao mes -> ");
+        double interest_rate = sc.nextDouble() / 100;
+        System.out.print("Tempo em meses -> ");
+        int time = sc.nextInt();
+
+        double installment = value + (value * interest_rate * time);
+
+        System.out.println("O valor da prestacao em atraso é " + installment);
     }
 }

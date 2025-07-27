@@ -1,8 +1,15 @@
+import java.util.*;
 public class ex04a {
     public static void main(String[] args) {
-        double celcius = 100.2;
+        Scanner sc = new Scanner(System.in);
+
+        /* Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é F ← C * 9 / 5 + 32, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius. */
+
+        System.out.print("Temperatura em celcius -> ");
+        double celcius = sc.nextDouble();
+
         double fahrenheit = celcius * 9 / 5 + 32;
-        System.out.println("Temperature in Celcius: "+ celcius +" ºC");
-        System.out.println("The same temperature in Fahrenheit: "+ fahrenheit +" ºF");
+
+        System.out.println("Temperatura em Fahrenheit: "+ fahrenheit +" ºF");
     }
 }
